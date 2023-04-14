@@ -15,7 +15,6 @@ module.exports = {
 	//return an integer
 	bulbs: function (A) {
 		let cost = 0;
-
 		let el;
 
 		for (let i = 0; i < A.length; i++) {
@@ -29,7 +28,5 @@ module.exports = {
 		}
 
 		return cost;
-
-
 	}
 };
